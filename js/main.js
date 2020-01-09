@@ -76,7 +76,7 @@ hyperbola.rotation.x = Math.PI / 32;
 scene.add(hyperbola);
 
 var geometry10 = new THREE.PlaneGeometry(350, 350);
-var material10 = new THREE.MeshBasicMaterial({color: 0xBBBBBB, transparent:true, opacity:0.6});
+var material10 = new THREE.MeshBasicMaterial({color: 0xBBBBBB, transparent:true, opacity:0.85});
 var hyperbola2 = new THREE.Mesh(geometry10, material10);
 hyperbola2.position.y -= 80;
 hyperbola2.rotation.x = Math.PI / 32;
