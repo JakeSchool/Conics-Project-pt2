@@ -65,7 +65,7 @@ var material8 = new THREE.MeshBasicMaterial({color: 0x0000FF});
 var parabola2 = new THREE.Mesh(geometry8, material8);
 parabola2.position.y += 20;
 parabola2.rotation.x = Math.PI / 16;
-parabola2.rotation.y = Math.PI;
+//parabola2.rotation.y = Math.PI;
 scene.add(parabola2);
 
 var geometry9 = new THREE.PlaneGeometry(350, 350);
